@@ -1,0 +1,56 @@
+body {
+}
+
+h1, h2 {
+  font-family: serif;
+}
+
+h1 {
+  font-size: 150%;
+}
+
+h2 {
+  font-size: 125%;
+}
+
+input[type=radio] {
+  -webkit-print-color-adjust: exact;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 1px solid black;
+  margin: 0;
+  padding: 6px 10px;
+}
+
+input[type=radio]:checked {
+  background: #000;
+}
+
+header {
+	height: 27mm;
+}
+
+table {
+  table-layout: fixed;
+  font-family: monospace;
+}
+
+th, td {
+  vertical-align: middle;
+}
+
+th.no {
+  text-align: right;
+  width: 6mm;
+}
+
+td.answer {
+}
+
+td.answer:before {
+}
+
+th.spacer[colspan="39"] {
+  height: 1mm;
+}
