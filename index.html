@@ -1,21 +1,105 @@
 <!doctype html>
-<html class="no-js" lang="ru">
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        color: #222;
+        font-family: 'Fira Sans', sans-serif;
+      }
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Мульти-Тест</title>
-  <meta name="description" content="Сборник психологических тестов для прохождения онлайн">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-</head>
+      body {
+        margin: 0;
+        padding: 20px;
+      }
 
-<body>
-  <h1>Under Construction</h1>
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-50457839-2', 'auto'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
-</body>
+      h1, p {
+        text-align: center;
+      }
 
+      p {
+        margin: 1em 0 2em;
+      }
+
+      ul, li {
+        margin: 0;
+        padding: 0;
+      }
+
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        max-width: 920px;
+        padding: 0;
+        margin: 0 auto;
+        box-sizing: border-box;
+        justify-content: center;
+      }
+
+      li {
+        display: block;
+        margin: 0;
+        padding: 0;
+        width: 280px;
+        min-height: 100px;
+      }
+
+      li > a {
+        background-image: url("data:image/svg+xml,%3Csvg width='23' height='21' viewBox='0 0 23 21' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M22.468 10.556L13.216 20.888L11.704 19.556L16.708 13.976C17.62 12.92 18.508 12.092 19.372 11.492H0.112V9.62H19.372C18.556 9.068 17.668 8.24 16.708 7.136L11.704 1.556L13.216 0.224L22.468 10.556Z' fill='%23999999'/%3E%3C/svg%3E");
+        background-color: #eee;
+        background-position: bottom 10px right 10px;
+        background-repeat: no-repeat;
+        color: #666;
+        text-align: left;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 21px;
+        display: block;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        padding: 17px 10px 10px 20px;
+      }
+
+      li > a:hover, li > a:focus, li > a:active {
+        cursor: pointer;
+        background-image: url("data:image/svg+xml,%3Csvg width='23' height='21' viewBox='0 0 23 21' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M22.468 10.556L13.216 20.888L11.704 19.556L16.708 13.976C17.62 12.92 18.508 12.092 19.372 11.492H0.112V9.62H19.372C18.556 9.068 17.668 8.24 16.708 7.136L11.704 1.556L13.216 0.224L22.468 10.556Z' fill='%23eeeeee'/%3E%3C/svg%3E");
+      }
+
+      li > a:hover, li > a:focus {
+        background-color: #5e7dab;
+        color: #fff;
+      }
+
+      li > a:active {
+        background-color: #3c506e;
+        color: #eee;
+      }
+    </style>
+    <title>Опросники</title>
+  </head>
+  <body>
+    <h1>
+      Мульти-тест
+    </h1>
+    <p>
+      Пожалуйста, выберите тест из списка и нажмите на него, чтобы начать:
+    </p>
+    <ul style="text-align: center;">
+      <li><a href="Alexithymia-RU.html">Торонтская алекситимическая шкала</a></li>
+      <li><a href="Amon-RU.html">Я-структурный тест Аммона</a></li>
+      <li><a href="Cattell-RU.html">Тест Кеттела</a></li>
+      <li><a href="Factor5-RU.html">Пятифакторный опросник личности</a></li>
+      <li><a href="Maddi-RU.html">Тест жизнестойкости Мадди</a></li>
+      <li><a href="Emin-RU.html">Методика эмоционального интеллекта "ЭМИН"</a></li>
+      <li><a href="SPA-RU.html">Методика диагностики социально-психологической адаптации</a></li>
+    </ul>
+  </body>
 </html>
