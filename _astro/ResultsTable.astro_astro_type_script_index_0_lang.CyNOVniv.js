@@ -1,0 +1,1 @@
+import{f as a}from"./formatting.CXlgMN_0.js";function c(n){window.addEventListener("multi-test:data",o=>{const s=o.detail||{};Object.entries(s).forEach(([r,e])=>{const t=n.querySelector(`[data-scale-id="${r}"]`);t&&(t.textContent=typeof e=="number"?a(e):`${e}`)})})}c(document.getElementById("scales-table"));
